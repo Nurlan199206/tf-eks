@@ -14,8 +14,12 @@ Deploy new AWS EKS cluster
 ```Default output format [None]: json```
 
 
+
+
 ```terraform init```
 
 ```terraform apply```
+
+
 
 ```aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)``` or use generated kubeconfig file
