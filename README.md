@@ -1,6 +1,8 @@
 # tf-eks
 Deploy new AWS EKS cluster
 
+###Terraform v1.0.1
+
 ```brew install awscli```
 
 ```aws configure```
